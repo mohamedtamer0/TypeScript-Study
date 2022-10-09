@@ -1,6 +1,8 @@
 // Literal Types
 
-function compare(num1:number, num2:number)  {
+type nums = 0 | 1 | -1;
+
+function compare(num1:number, num2:number) : nums {
     if(num1 === num2) {
         return 0;
     }
@@ -15,3 +17,5 @@ function compare(num1:number, num2:number)  {
 console.log(compare(20,20));
 console.log(compare(20,15));
 console.log(compare(20,30));
+
+//let myNumber:nums = 100;
