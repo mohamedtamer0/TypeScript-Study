@@ -1,7 +1,7 @@
 // Function Optional and Default Parameters
 
 
-function showData(name?:string, age?:number, country?:string) {
+function showData(name?: string, age?: number, country?: string) {
     return `${name} - ${age} - ${country}`;
 }
 

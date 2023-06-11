@@ -4,10 +4,10 @@
 
 let showMsg = true;
 
-function showDetails(name: string,age: number,salary: number) {
+function showDetails(name: string, age: number, salary: number) {
     let test = 10;
 
-    if(showMsg) {
+    if (showMsg) {
         return `Hello ${name}, Age Is ${age}, Salary Is ${salary}, Test var ${test}`;
     }
 
