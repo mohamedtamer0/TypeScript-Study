@@ -1,17 +1,17 @@
 // type Annotations || Signature
 
-let theName:string = "Tamer";
+let theName: string = "Tamer";
 let theAge: number = 40;
-let hire:boolean = true;
+let hire: boolean = true;
 
-let all:any = "Mohamed Tamer"
+let all: any = "Mohamed Tamer"
 
 theName = "Tamer";
 all = 100;
 
 //////////////
 
-function add(n1:number,n2:number) {
+function add(n1: number, n2: number) {
     return n1 + n2;
 }
 

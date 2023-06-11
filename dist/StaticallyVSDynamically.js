@@ -5,4 +5,4 @@ if (age > 30) {
 }
 else {
 }
-//# sourceMappingURL=index2.js.map
+//# sourceMappingURL=StaticallyVSDynamically.js.map
