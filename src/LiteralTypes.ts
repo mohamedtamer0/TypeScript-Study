@@ -2,11 +2,11 @@
 
 type nums = 0 | 1 | -1;
 
-function compare(num1:number, num2:number) : nums {
-    if(num1 === num2) {
+function compare(num1: number, num2: number): nums {
+    if (num1 === num2) {
         return 0;
     }
-    else if(num1 > num2) {
+    else if (num1 > num2) {
         return 1;
     }
     else {
@@ -14,8 +14,8 @@ function compare(num1:number, num2:number) : nums {
     }
 }
 
-console.log(compare(20,20));
-console.log(compare(20,15));
-console.log(compare(20,30));
+console.log(compare(20, 20));
+console.log(compare(20, 15));
+console.log(compare(20, 30));
 
 //let myNumber:nums = 100;

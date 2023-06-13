@@ -1,22 +1,16 @@
-// Void 7 Never
-
-function logging(msg: String): void {
+"use strict";
+function logging(msg) {
     console.log(msg);
     return;
 }
-
 console.log(logging("Iam A Message"));
-
-const fail = (msg: string) => {
+const fail = (msg) => {
     throw new Error(msg);
-    //return;
-}
-
-function alwaysLog(name: String): never {
+};
+function alwaysLog(name) {
     while (true) {
         console.log(name);
     }
 }
-
 alwaysLog("Tamer");
-//console.log("Test");
+//# sourceMappingURL=DataType-Void&Never.js.map
