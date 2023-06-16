@@ -6,5 +6,5 @@ let userEx = {
     role: "Mod",
     protect: true
 };
-console.log(user.id);
+console.log(userEx.id);
 //# sourceMappingURL=InterfaceExtend.js.map
